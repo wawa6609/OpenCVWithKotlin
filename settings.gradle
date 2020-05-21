@@ -1,0 +1,2 @@
+rootProject.name='OpenCV With Kotlin'
+include ':app'
