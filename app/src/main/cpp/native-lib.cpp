@@ -106,7 +106,7 @@ Java_com_example_opencvwithkotlin_MainActivity_stringFromJNI(
 }
 
 
-extern "C" JNIEXPORT jstring JNICALL
+extern "C" JNIEXPORT void JNICALL
 Java_com_example_opencvwithkotlin_MainActivity_myFlip(
         JNIEnv* env,
         jobject /* this */,
@@ -118,7 +118,7 @@ Java_com_example_opencvwithkotlin_MainActivity_myFlip(
     matToBitmap(env,src,bitmapOut,false);
 }
 
-extern "C" JNIEXPORT jstring JNICALL
+extern "C" JNIEXPORT void JNICALL
 Java_com_example_opencvwithkotlin_MainActivity_myBlur(
         JNIEnv* env,
         jobject /* this */,
